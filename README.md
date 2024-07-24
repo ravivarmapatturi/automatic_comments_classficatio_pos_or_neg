@@ -38,13 +38,13 @@ text
 comma-separated list of emotion ids (the ids are indexed based on the order of emotions in emotions.txt)
 id of the comment
 
-{
-"anger": ["anger", "annoyance", "disapproval"],
-"fear": ["fear", "nervousness"],
-"joy": ["joy", "amusement", "approval", "excitement", "gratitude",  "love", "optimism", "relief", "pride", "admiration", "desire", "caring"],
-"sadness": ["sadness", "disappointment", "embarrassment", "grief",  "remorse"],
+Broadly Emotions are categorized into 5 emotions like Below:
+"anger": ["anger", "annoyance", "disapproval"] 
+"fear": ["fear", "nervousness"]
+"joy": ["joy", "amusement", "approval", "excitement", "gratitude",  "love", "optimism", "relief", "pride", "admiration", "desire", "caring"]
+"sadness": ["sadness", "disappointment", "embarrassment", "grief",  "remorse"]
 "surprise": ["surprise", "realization", "confusion", "curiosity"]
-}
+
 
 
 this is repo is about automatic comments classfication either positive or negative .  python machine learning project using the sci-kit learn library. In it i tried to  build a model that automatically classifies text as either having a positive or negative sentiment. I build the models with different machine learning classification models.
