@@ -38,7 +38,7 @@ text
 comma-separated list of emotion ids (the ids are indexed based on the order of emotions in emotions.txt)
 id of the comment
 
-Broadly Emotions are categorized into 5 emotions like Below:
+Broadly Emotions are categorized like Below:
 "anger": ["anger", "annoyance", "disapproval"] 
 "fear": ["fear", "nervousness"]
 "joy": ["joy", "amusement", "approval", "excitement", "gratitude",  "love", "optimism", "relief", "pride", "admiration", "desire", "caring"]
