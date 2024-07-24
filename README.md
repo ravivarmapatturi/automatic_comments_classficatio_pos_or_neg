@@ -1,4 +1,7 @@
 # Multi_Class_sentiment classification using nlp
+This Repo is about MultiClass SentimentClassification GoEmotions is a dataset containing 58k curated comments from Reddit, annotated with 27 emotion categories plus a neutral category. Using this dataset, I broadly categorized the emotions into five groups: happy, sad, anger, surprise, and fear. I then preprocessed the data using the spaCy library, which involved removing stop words, keeping only alphabetic words, and applying stemming. For feature extraction, I employed techniques like Count Vectorizer, TF-IDF, and TF-IDF with n-grams. I experimented with various machine learning models, including Naive Bayes, Logistic Regression, Random Forest, and Artificial Neural Networks (ANNs). This was followed by hyperparameter tuning, evaluating the models using metrics, and analyzing the confusion matrix.
+
+
 GoEmotions
 GoEmotions is a corpus of 58k carefully curated comments extracted from Reddit, with human annotations to 27 emotion categories or Neutral.
 
@@ -47,10 +50,4 @@ Broadly Emotions are categorized like Below:
 
 
 
-this is repo is about automatic comments classfication either positive or negative .  python machine learning project using the sci-kit learn library. In it i tried to  build a model that automatically classifies text as either having a positive or negative sentiment. I build the models with different machine learning classification models.
-ml classfication models used in this project:
-1.suport vector classification(svc)
-2.decision tree classifier
-3.navie bayes classifier
-4. logistic regreesion
-I also tried evaluated all the models . I tried to tune the decision tree classifier model . Predicted the model with random test data and evaluated different metrics like accuracy and heatmap etc.
+
