@@ -1,7 +1,7 @@
 # Multi_Class_sentiment classification using nlp
 This Repo is about MultiClass SentimentClassification .GoEmotions is a dataset containing 58k curated comments from Reddit, annotated with 27 emotion categories plus a neutral category. Using this dataset, I broadly categorized the emotions into five groups: happy, sad, anger, surprise, and fear. I then preprocessed the data using the spaCy library, which involved removing stop words, keeping only alphabetic words, and applying stemming. For feature extraction, I employed techniques like Count Vectorizer, TF-IDF, and TF-IDF with n-grams. I experimented with various machine learning models, including Naive Bayes, Logistic Regression, Random Forest, and Artificial Neural Networks (ANNs). This was followed by hyperparameter tuning, evaluating the models using metrics, and analyzing the confusion matrix.
 
-===================================================================================================================================================================================================================
+============================================================================================
 GoEmotions Dataset
        ↓
 Broad Categorization into 5 Emotions (Happy, Sad, Anger, Surprise, Fear)
@@ -26,7 +26,7 @@ Model Evaluation
   - Hyperparameter Tuning
   - Metrics Evaluation
   - Confusion Matrix Analysis
-=====================================================================================================================================================================================================================
+========================================================================================
 GoEmotions
 GoEmotions is a corpus of 58k carefully curated comments extracted from Reddit, with human annotations to 27 emotion categories or Neutral.
 
